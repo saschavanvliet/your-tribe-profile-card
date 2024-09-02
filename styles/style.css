@@ -4,6 +4,7 @@
 
 html {
   height: 100vh;
+  background: rgb(138, 164, 223);
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  color: #7e8cb2;
 }
 
 article {
@@ -25,8 +26,8 @@ article {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: pink;
+  background: linear-gradient(0deg, rgb(113, 215, 128) 40%, rgb(17, 86, 17));
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -41,7 +42,8 @@ header {
 
 h1 {
   margin: 2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(244, 231, 193);
+  font-size: 2em;
 }
 
 button {
@@ -53,7 +55,7 @@ button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgba(0,239,255,1);
+  background: black;
   transform: scale(.8);
   transition: .25s;
 }
@@ -62,14 +64,14 @@ button:focus {
   background: #202592;
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: white;
 }
 
 svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: lightpink;
   transition-delay: .25s;
 }
 button svg:nth-of-type(2) {
