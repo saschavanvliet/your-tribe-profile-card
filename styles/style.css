@@ -16,6 +16,10 @@ body {
   color: #7e8cb2;
 }
 
+p {
+  color: black;
+}
+
 article {
   position: relative;
   display: flex;
