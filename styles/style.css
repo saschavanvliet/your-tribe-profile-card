@@ -14,6 +14,12 @@ body {
   height: 100vh;
   font-family: open sans;
   color: #7e8cb2;
+  transition: transform 1.3s;
+  transform-style: preserve-3d;
+}
+
+.rotated {
+  transform: rotateX(720deg);
 }
 
 p {
@@ -31,9 +37,10 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   background: pink;
-  background: linear-gradient(0deg, rgb(113, 215, 128) 40%, rgb(17, 86, 17));
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
+  box-shadow: rgba(0,0,0,0.3);
+  cursor: pointer;
 }
 
 header {
@@ -46,7 +53,7 @@ header {
 
 h1 {
   margin: 2rem 0 1rem;
-  color: rgb(244, 231, 193);
+  color: rgb(148, 139, 113);
   font-size: 2em;
 }
 
@@ -88,8 +95,8 @@ img {
   top: 2rem;
   width: 10em;
   height: auto;
-  border: 5px solid #fff;
-  border-radius: 10em;
+  border: 2px solid #fff;
+  border-radius: 1.5em;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
   transition: .25s .15s;
 }
